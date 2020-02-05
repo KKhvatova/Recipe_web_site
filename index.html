@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <style>
+
+            /* Id selector */
+            #hr_style {
+            width: 50%;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            border-width: 2px;
+            border-color: black;
+            }
+
+            .image1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+            .image2{
+                display: none;
+
+                }
+
+            /* Media query */    
+            @media only screen and (max-width: 800px){           
+            .image1{
+                display: none;
+            }
+
+            .image2{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+        }
+       </style>
+        <title>Taste of Home!</title>
+    </head>
+
+    <body>
+	<h1 align="center">Taste of Home!</h1>
+
+    <hr id="hr_style">
+    
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <a href="starter.html" style="color:black"> <b>Starter</b></a>
+          </div>
+          <div class="col-sm">
+            <a href="first_course.html" style="color:black"><b>First course</b></a>
+          </div>
+          <div class="col-sm">
+            <a href="second_course.html" style="color:black"><b>Second course</b></a>
+          </div>
+          <div class="col-sm">
+            <a href="dessert.html" style="color:black"> <b>Dessert</b> </a>
+          </div>
+        </div>
+    </div>
+
+    <hr id="hr_style">
+
+    <div>
+        <img src="img/start_page.jpg" class="image1"/>
+        <img src="img/start_page_2.jpg" class="image2"/>    
+    </div>
+
+    </body>
+</html>

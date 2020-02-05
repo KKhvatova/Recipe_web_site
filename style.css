@@ -1,0 +1,101 @@
+th {
+  text-align: center;
+  Width: 50px;
+  Height: 40px;
+  Margin: 30px;
+  Padding: 20px; }
+
+.container {
+  width: 50%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto; }
+
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+
+.col-sm {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%; }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; }
+
+.flex-container {
+  display: flex;
+  justify-content: center; }
+
+.flex-container > div {
+  margin: 10px;
+  text-align: center;
+  line-height: 75px; }
+
+.text_align {
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%; }
+
+.text_link {
+  text-align: center;
+  color: black;
+  font-family: 'Courier New';
+  font-size: 20px; }
+
+.list_link {
+  text-align: center;
+  color: black;
+  list-style-type: none; }
+
+.card {
+  width: 18rem;
+  margin: 0 auto;
+  /* Added */
+  float: none;
+  /* Added */
+  margin-bottom: 10px;
+  /* Added */ }
+
+.empty_space {
+  padding-top: 20px; }
+
+/* Nesting in SASS */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: fixed;
+  width: 50%;
+  bottom: 10px; }
+nav li {
+  display: inline-flex; }
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none; }
+
+/* SCSS inheritance */
+.title, .subtitle {
+  border: none;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 130%;
+  font-weight: bold;
+ }
+
+.subtitle {
+  padding-bottom: 10px;
+  font-family: brush script mt, cursive;
+  background-color: pink; }
+
+/*# sourceMappingURL=style.css.map */
